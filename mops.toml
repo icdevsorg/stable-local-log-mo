@@ -1,0 +1,22 @@
+[package]
+name = "stable-local-log"
+version = "0.2.0"
+description = "This log keeps a set buffer until it is full and then clears it. You can intercept the clear and file the logs elsewhere. It supports a timestamp, namespace, and log level for filtering."
+repository = "https://github.com/PanIndustrial-Org/stable-local-log-mo"
+keywords = [ "log" ]
+
+[dependencies]
+core = "2.3.1"
+ovs-fixed = "0.2.2"
+class-plus = "0.2.1"
+timer-tool = "0.2.1"
+star = "0.1.1"
+icrc10-mo = "0.2.1"
+vector = "0.4.1"
+
+[toolchain]
+moc = "1.8.2"
+
+[dev-dependencies]
+test = "2.1.2"
+bench = "2.0.1"
